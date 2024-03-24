@@ -13,7 +13,7 @@ const SinglePage = () => {
 
 
      
-        <button className={`z-30 h-24 w-4 bg-blue-950 peer/btn focus:ml-[200px] fixed mt-56`}>
+        <button className={`z-30 h-24 w-4 bg-blue-950 peer/btn focus:ml-[200px] focus:transition duration-300 delay-150  fixed mt-56`}>
           <IoMdArrowDropright className='text-white text-2xl ' />
         </button>
 

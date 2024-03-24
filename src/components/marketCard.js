@@ -3,7 +3,7 @@ import React from 'react';
 
 const MarketCard = ({ item }) => {
     return (
-        <div className='w-[420px] md:w-[750px] lg:w-[420px] shadow-md mb-4'>
+        <div className='w-[420px] md:w-[750px] lg:w-[420px] shadow-md mb-10 -translate-y-0 hover:-translate-y-6 hover:transition duration-300 delay-100'>
             <div className='h-[200px] w-[420px] md:w-[750px] lg:w-[420px] overflow-hidden '>
                 <Image src={item.img} alt='sunsetPicture'  layout="responsive" width={420} height={200} objectFit='contain'/> 
             </div>

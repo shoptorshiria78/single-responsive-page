@@ -10,7 +10,7 @@ import { IoShareSocial } from "react-icons/io5";
 const DiscussCard = ({ item }) => {
     return (
 
-        <div className="flex gap-2 mb-16 p-4 shadow-lg rounded-md">
+        <div className="flex gap-2 mb-16 p-4 shadow-2xl rounded-md -translate-y-0 hover:-translate-y-10 hover:transition duration-300 delay-100">
             {/* profile picture of the card */}
             <div >
                 <div className=' w-15 h-15 ' style={{ borderRadius: '200px', overflow: 'hidden' }}><Image src={item.img} alt='picture' width={100} height={50} objectFit="cover" /></div>
